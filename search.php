@@ -6,7 +6,7 @@
             <div class="row justify-content-start mt-2">
 <?php
     $search_file = $_GET['fs'];
-    $pattern = "/(" . $search_file . ")/";
+    $pattern = "/(" . $search_file . ")/i";
     $directory = 'files/';
     $images = [];
     $folders = [];
